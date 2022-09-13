@@ -1,2 +1,2 @@
-# 46b95rb.githun.io
+# 46b95rb.github.io
 website biografi
