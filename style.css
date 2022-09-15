@@ -20,6 +20,13 @@ body {
     color: black;
    }
 
+   a:link,:visited {
+    color:aqua
+   }
+   a:hover,:active {
+    color: white;
+   }
+
    .main {
     background-color: rgba(0,0,0,0.4);
     height: 400px;
