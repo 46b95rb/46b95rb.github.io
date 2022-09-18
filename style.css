@@ -40,7 +40,7 @@ body {
     border-radius: 20px;
    }
    .main p {
-    text-align: justify;
+    text-align: left;
     color: white;
     font-family: Helvetica;
     font-size: 25px;
