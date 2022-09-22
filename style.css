@@ -8,16 +8,12 @@ body {
    p {
     font-family: Helvetica;
     font-size: 20px;
-    text-align: center;
-    color:black;
+    color:white;
     }
 
    h1,h2,h3,h4,h5,h6 {
     font-family: Helvetica;
-    text-align: center;
-    text-decoration: none;
-    display: center;
-    color: black;
+    color: white;
    }
 
    a:link,:visited {
@@ -70,4 +66,25 @@ body {
    .social-links p,a {
     font-family: Helvetica;
     font-size: 25px;
+   }
+
+   footer {
+   text-align: left;
+   padding: 50px;
+   border: 2px;
+   border-radius: 20px;
+   background-color: rgba(0,0,0,0.4);
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   }
+   .footer-section {
+    width: 20%;
+    margin: auto;
+   }
+   .footer-section h1 {
+    text-align: center;
+    display: center;
+    color: white;
    }
