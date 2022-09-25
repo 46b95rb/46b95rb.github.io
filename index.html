@@ -12,6 +12,12 @@
 </head>
 
 <body>
+  <div class="header" id="myHeader">
+    <p>
+      Website<br>
+      Biografi<br>
+    </p>
+  </div>
   <div class="main">
     <h1>Hello There 👋</h1>
     <p>
@@ -27,20 +33,35 @@
     <p><a href="https://chess.com/member/fishoof"; target="blank";>Chess.com</a></p>
     <p><a href="https://github.com/46b95rb"; target="blank";>Github</a></p>
   </div>
- 
-<footer>
+  <footer>
     <div class="footer-section">
-      <h1>
+      <h1 style="font-size: 40px;">
         Website<br>
         Biografi<br>
       </h1>
     </div>
     <div class="footer-section">
-      <p>Made in pure boredom by me.</p>
-      <p>Source code: <a href="https://github.com/46b95rb/46b95rb.github.io"; target="_blank"; style="font-size: 20px ;">github.com</a></p>
-      <p>I'll see you around, in the stairs, and in the corridors, of Bonlap!</p>
+      <p style="text-align: center;">~ end of the line ~</p>
     </div>
-</footer>
+    <div class="footer-section">
+      <p>Source: <a href="https://github.com/46b95rb/46b95rb.github.io"; target="_blank"; style="font-size: 20px ;">github.com</a></p>
+    </div>
+  </footer>
+  
+  <script>
+ window.onscroll = function() {myFunction()};
 
-</body>
+ var header = document.getElementById("myHeader");
+ var sticky = header.offsetTop;
+
+ function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+ }
+  </script>
+
+</body> 
 </html>
