@@ -88,3 +88,22 @@ body {
     display: center;
     color: white;
    }
+
+   .header {
+    text-align: center;
+    padding: 20px;
+    border: 2px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.4);
+    }
+    .sticky {
+    position: fixed;
+    padding: 20px;
+    border: 2px;
+    border-radius: 20px;
+    width: 96.5%;
+    top: 8px;
+    }
+    .content {
+    padding: 0px;
+    }
