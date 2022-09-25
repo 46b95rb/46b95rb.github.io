@@ -75,10 +75,9 @@ body {
    border: 2px;
    border-radius: 20px;
    background-color: rgba(0,0,0,0.4);
-   position: relative;
+   position: center center;
    display: flex;
    flex-wrap: wrap;
-   margin: auto;
    }
    .footer-section {
     width: 20%;
