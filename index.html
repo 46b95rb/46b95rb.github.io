@@ -12,12 +12,21 @@
 </head>
 
 <body>
-  <div class="header" id="myHeader">
-    <p>
-      Website<br>
-      Biografi<br>
-    </p>
-  </div>
+  <header>
+    <div>
+     <div class="header-title">
+      <h1>Dit Dot</h1>
+     </div>
+     <div class="header-links">
+      <ul>
+        <li><h1><a href="#main">About</a></h1></li>
+        <li><h1><a href="#social-links">Socials</a></h1></li>
+      </ul>
+     </div>
+    </div>
+  </header>
+
+  <section id="main">
   <div class="main">
     <h1>Hello There 👋</h1>
     <p>
@@ -27,12 +36,18 @@
       Hobi saya adalah membaca, bermain game, dan berhitung.<br>
     </p>
   </div>
+  </section>
+
+  <section id="social-links">
   <div class="social-links">
     <h1>Social Links</h1>
     <p><a href="https://instagram.com/radit_635"; target="blank";>Instagram </a></p>
+    <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"; target="_blank";>YouTube</a></p>
     <p><a href="https://chess.com/member/fishoof"; target="blank";>Chess.com</a></p>
     <p><a href="https://github.com/46b95rb"; target="blank";>Github</a></p>
   </div>
+  </section>
+
   <footer>
     <div class="footer-section">
       <h1 style="font-size: 40px;">
@@ -42,26 +57,14 @@
     </div>
     <div class="footer-section">
       <p style="text-align: center;">~ end of the line ~</p>
+      <p style="text-align: center;">I'll see you around, in the stairs, and in the corridors, of Bonlap!</p>
+      <p style="text-align: center;">&copy;2022 46b95rb</p>
     </div>
     <div class="footer-section">
       <p>Source: <a href="https://github.com/46b95rb/46b95rb.github.io"; target="_blank"; style="font-size: 20px ;">github.com</a></p>
     </div>
   </footer>
-  
-  <script>
- window.onscroll = function() {myFunction()};
 
- var header = document.getElementById("myHeader");
- var sticky = header.offsetTop;
-
- function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
- }
-  </script>
 
 </body> 
 </html>
