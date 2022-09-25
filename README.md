@@ -7,3 +7,6 @@ Made With 💖 For My Own Curiosity
 
 ## Made by ...
 Radit aka 46b95rb, Rinen
+
+## Updates
+This repository is still active and improving, not like that one.
