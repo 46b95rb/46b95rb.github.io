@@ -2,7 +2,7 @@
 ### This is such a big-brain moment
 
 # 46b95rb.github.io
-Website Biografi 
+Website Biografi  
 Made With 💖 For My Own Curiosity
 
 ## Made by ...
