@@ -124,3 +124,25 @@ body {
     padding: 0px 8px 0px 8px;
     text-decoration: none;
    }
+
+   .projects {
+    background-color: rgba(0,0,0,0.4);
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 50px;
+    text-align: center;
+    border: 2px;
+    border-radius: 20px;
+   }
+   .projects h1,h2,h3,h4,h5,h6 {
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+   }
+   .projects p,a {
+    font-family: Helvetica;
+    font-size: 25px;
+   }
